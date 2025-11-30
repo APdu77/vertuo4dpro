@@ -1,6 +1,5 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-
 .toolbar {
     //background-color: #d8fbc4;
     //background-color: #016334;
@@ -44,13 +43,31 @@
 
 span {
     color: #fd0001;
-    font-family: 'roboto', sans-serif;
-    
+    font-size: smaller;
+}
+
+.vertuo {
+  color: #000000;
+  font-family: 'Yellowtail', cursive;
+  font-size: xx-large;
+
+}
+
+.qd {
+  color: #d8fbc4;
+  font-family: 'Bungee Shade', cursive;
+  font-size: x-large;
+}
+
+.pro {
+  color: #fd0001;
+  font-family: 'Permanent Marker', cursive;
+  font-size: x-large;
 }
 
 a {
-    border: #0f7531 dashed;
-    border-radius: 0.5rem;
+    border: #0f7531 ;
+    border-radius: 1rem;
     background-color: #d8fbc4;
 }
 

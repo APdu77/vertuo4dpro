@@ -1,7 +1,7 @@
-<mat-card class="image-card" *ngFor="let card of cards" (click)="openDialog(card)">
+<mat-card class="image-card" *ngFor="let card of cards">
   
   <div>
-    <img mat-card-image [src]="card.imageUrl" class="card-image" />
+    <img mat-card-image (click)="openDialog(card)" [src]="card.imageUrl" class="card-image" />
   </div>
   <mat-card-content>
     <p>{{ card.title }}</p>

@@ -1,27 +1,5 @@
-<!-- Bouton principal -->
-<div class="speed-dial-container">
-  <button mat-fab class="fab-main" (click)="toggleSpeedDial()">
-    <mat-icon>{{ speedDialOpen ? 'close' : 'menu' }}</mat-icon>
-  </button>
-
-  <!-- Sous-boutons -->
-  <div class="fab-actions" [class.open]="speedDialOpen">
-
-    <!-- WhatsApp -->
-    <button mat-mini-fab class="fab whatsapp" (click)="openWhatsApp()">
-      <img src="assets/whatsapp.svg" width="22" height="22">
-    </button>
-
-    <!-- Appel -->
-    <button mat-mini-fab class="fab call" (click)="callNumber()">
-      <mat-icon>phone</mat-icon>
-    </button>
-
-    <!-- Email -->
-    <button mat-mini-fab class="fab mail" (click)="sendEmail()">
-      <mat-icon>email</mat-icon>
-    </button>
-
-  </div>
-</div>
-
+<button mat-fab
+        class="call-floating-btn"
+        (click)="callNumber()">
+    <mat-icon>phone</mat-icon>
+</button>

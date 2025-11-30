@@ -87,7 +87,7 @@ Nous mettons en œuvre des mesures raisonnables pour protéger vos données cont
 7. Contact
 
 Vertuo 4D Pro  
-Tél & WhatsApp: 07 44 13 11 97  
+Tél : 07 44 13 11 97  
 Email : vertuo4dpro@gmail.com
         `;
         break;

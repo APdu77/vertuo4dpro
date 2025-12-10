@@ -22,17 +22,10 @@ contactForm!: FormGroup;
 
   onSubmit(form:FormGroup): void {
     if (form.valid) {
-      const data = {
-      name: form.value.name,
-      email: form.value.email,
-      message: form.value.message,
-      city: form.value.city,
-      zipCode: form.value.zipCode
-      };
       emailjs.send(
         'vertuo_service',
         'vertuo_template',
-        data,
+        form.value,
         'hSJjc4PLU1l62vsLy'
       ).then(() => {
         alert('Message envoyé avec succès !');
